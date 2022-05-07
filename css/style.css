@@ -24,6 +24,40 @@ html {
   margin: 0 auto;
 }
 
+h1,
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+h1 {
+  font-size: 240%;
+  color: #fff;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 180%;
+}
+
+h2:after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: #e67e22;
+}
+
+h3 {
+  font-weight: 400;
+  margin-bottom: 5%;
+}
+
 /* --------- Header Secion --------- */
 
 header {
@@ -41,14 +75,6 @@ header {
   top: 35%;
   left: 30%;
   transform: translate(-35%, -30%);
-}
-
-h1 {
-  color: white;
-  font-size: 240%;
-  font-weight: 300;
-  letter-spacing: 1px;
-  word-spacing: 3px;
 }
 
 .btn:link,
@@ -118,3 +144,30 @@ h1 {
 }
 
 /* --------- End Header Section --------- */
+
+/* ---------  Section --------- */
+
+/* ---------  Section 1: Features--------- */
+
+section {
+  padding: 80px 0;
+}
+
+.lorem-para {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+}
+
+.box {
+  padding: 1px;
+  line-height: 145%;
+}
+
+.big-icon {
+  color: #d35400;
+  font-size: 350%;
+  display: block;
+}
+/* --------- End Section --------- */
