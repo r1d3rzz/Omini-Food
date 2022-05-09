@@ -77,6 +77,7 @@ header {
     url(/img/hero.jpg);
   height: 100vh;
   background-position: center;
+  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -296,5 +297,45 @@ section {
 :active {
   color: #d3ab0c;
   border-bottom-color: #d3ab0c;
+}
+
+/* Secion 5 : testimonials  */
+
+.testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/back-customers.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 120%;
+  padding: 2%;
+}
+
+blockquote::before {
+  content: open-quote;
+  font-size: 400%;
+}
+
+blockquote::after {
+  content: close-quote;
+  height: 0;
+  color: transparent;
+}
+
+cite > img {
+  width: 18%;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5%;
+}
+
+cite {
+  display: block;
+  margin-top: 8%;
 }
 /* --------- End Section --------- */
