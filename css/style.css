@@ -294,7 +294,7 @@ section {
 }
 
 .twitter-link:hover,
-:active {
+.twitter-link:active {
   color: #d3ab0c;
   border-bottom-color: #d3ab0c;
 }
@@ -337,5 +337,55 @@ cite > img {
 cite {
   display: block;
   margin-top: 8%;
+}
+
+/* Section 6: Sign up and pricing plans */
+.plans {
+  background-color: rgb(243, 239, 239);
+}
+
+.plan-box-detail {
+  background-color: #fff;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.334);
+  border-radius: 5px;
+}
+
+.plan-box-detail div {
+  border-bottom: 1px solid #d3d2d2;
+  padding: 15px;
+}
+
+.plan-detail > ul {
+  list-style: none;
+}
+
+.plan-name {
+  background-color: #ffe5e5;
+}
+
+.plan-name > p {
+  font-size: 300%;
+  font-weight: 100;
+}
+
+.plan-price {
+  font-size: 30%;
+  font-weight: 300;
+}
+
+.small-icon {
+  color: #f39c12;
+  font-size: 120%;
+  margin-right: 10px;
+}
+
+.plan-detail > ul > li {
+  padding: 10px 0;
+}
+
+.plan-btn {
+  text-align: center;
 }
 /* --------- End Section --------- */
