@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 html {
   background-color: #fff;
   color: #555;
@@ -91,7 +95,8 @@ header {
 }
 
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type="submit"] {
   color: white;
   text-decoration: none;
   display: inline-block;
@@ -104,11 +109,13 @@ header {
 }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type="submit"] {
   background-color: #e67e22;
 }
 
-.btn-full:hover {
+.btn-full:hover,
+input[type="submit"]:hover {
   background-color: #d35400;
 }
 
@@ -387,5 +394,24 @@ cite {
 
 .plan-btn {
   text-align: center;
+}
+
+/* Section 7: Contact form */
+
+.contactForm {
+  width: 40%;
+  margin: 0 auto;
+}
+
+input[type="email"],
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.checkbox {
+  margin-right: 10px;
 }
 /* --------- End Section --------- */
