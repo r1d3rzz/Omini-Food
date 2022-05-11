@@ -414,4 +414,58 @@ select {
 .checkbox {
   margin-right: 10px;
 }
+
+/* Section 8: Footer   */
+
+.footer {
+  background-color: rgb(29, 23, 23);
+  padding: 50px;
+}
+
+.footer-nav {
+  list-style: none;
+  float: left;
+}
+
+.social-app {
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-app li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.footer-nav li:last-child,
+.social-app li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li > a,
+.social-app li > a {
+  text-decoration: none;
+  color: #999696;
+  transition: all 0.2s;
+}
+
+.social-app li > a {
+  font-size: 150%;
+}
+
+.footer-nav li > a:hover,
+.social-app li > a:hover {
+  color: #fff;
+}
+
+.footer-text > p {
+  font-size: 90%;
+  color: #fff;
+}
+
+.footer-text {
+  text-align: center;
+  padding-top: 50px;
+}
 /* --------- End Section --------- */
