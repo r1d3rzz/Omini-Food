@@ -1,0 +1,206 @@
+@media only screen and (max-width: 1200px) {
+  section {
+    padding: 50px 0;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+
+  html {
+    font-size: 18px;
+  }
+
+  .footer-text {
+    padding-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 17px;
+  }
+
+  .lorem-para {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .row {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .contactForm {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    width: 60px;
+  }
+
+  .main-nav li {
+    margin-top: 40px;
+    font-size: 100%;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 150%;
+  }
+
+  .btn {
+    font-size: 80%;
+  }
+
+  .step-box:last-child {
+    padding-left: 3%;
+    margin-top: 28px;
+    font-size: 90%;
+  }
+
+  .works-step > div {
+    width: 40px;
+    height: 40px;
+  }
+
+  .works-step {
+    margin-bottom: 30px;
+  }
+
+  .btn-app img {
+    width: auto;
+    height: 35px;
+    margin-right: 5px;
+  }
+
+  .step-box-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .lorem-para {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5%;
+  }
+
+  .big-icon {
+    font-size: 250%;
+  }
+
+  .box h3 {
+    font-size: 100%;
+    margin-top: 20px;
+  }
+
+  .box > p {
+    font-size: 70%;
+  }
+
+  .contactForm {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .footer-nav {
+    font-size: 100%;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  .city-features {
+    line-height: 5%;
+  }
+
+  .city-box > div {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 130%;
+    color: #fff;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 120%;
+  }
+
+  header .main-nav {
+    display: none;
+  }
+
+  .hero-text-box {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translate(-5%, -10%);
+  }
+
+  .box {
+    border: 1px solid transparent;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  .box > p {
+    font-size: 80%;
+  }
+
+  .step-box:first-child {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .plan-box {
+    margin-bottom: 30px;
+  }
+
+  .plan-name > p {
+    font-size: 200%;
+  }
+
+  .plan-price {
+    font-size: 50%;
+  }
+
+  .contactBox {
+    margin-bottom: 20px;
+  }
+
+  .contactBox > div:first-child {
+    display: none;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+
+  .footer > .row > div:last-child {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+  }
+}
