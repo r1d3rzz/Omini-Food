@@ -25,32 +25,21 @@ $(document).ready(function () {
   });
 
   // Animate Css
-  $(".js--wp-1").waypoint(
-    function (direction) {
-      $(".js--wp-1").addClass("animated animate__fadeInLeft");
-    },
-    {
-      offset: "50%",
-    }
-  );
 
-  $(".js--wp-2").waypoint(
-    function (direction) {
-      $(".js--wp-2").addClass("animated animate__fadeInLeft");
-    },
-    {
-      offset: "50%",
-    }
-  );
+  let getAnimation = (number, animationName) => {
+    $(`.js--wp-${number}`).waypoint(
+      function (direction) {
+        $(`.js--wp-${number}`).addClass(`animated ${animationName}`);
+      },
+      {
+        offset: "50%",
+      }
+    );
+  };
 
-  $(".js--wp-3").waypoint(
-    function (direction) {
-      $(".js--wp-3").addClass("animated animate__bounceInRight");
-    },
-    {
-      offset: "50%",
-    }
-  );
+  getAnimation(1, "animate__fadeIn");
+  getAnimation(2, "animate__fadeInLeft");
+  getAnimation(3, "animate__bounceInRight");
 
   //Scroll smooth from css-tricks/snippet
   $('a[href*="#"]')
