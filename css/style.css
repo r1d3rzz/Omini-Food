@@ -138,6 +138,13 @@ input[type="submit"]:hover {
   margin-top: 30px;
 }
 
+.logo-black {
+  display: none;
+  width: 60px;
+  float: left;
+  margin: 10px 0;
+}
+
 .main-nav {
   float: right;
   list-style: none;
@@ -161,6 +168,37 @@ input[type="submit"]:hover {
 
 .main-nav li:hover {
   border-bottom: 3px solid #d35400;
+}
+
+/* Sticky Nav */
+
+.sticky {
+  background-color: rgba(254, 250, 250, 0.928);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 2px black;
+  z-index: 9999;
+}
+
+.sticky .main-nav li > a {
+  color: #555;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 100%;
+}
+
+.sticky .logo {
+  display: none;
+}
+
+.sticky .logo-black {
+  display: block;
+}
+
+.sticky .main-nav li {
+  margin-top: 20px;
 }
 
 /* --------- End Header --------- */
