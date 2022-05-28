@@ -24,6 +24,34 @@ $(document).ready(function () {
     );
   });
 
+  // Animate Css
+  $(".js--wp-1").waypoint(
+    function (direction) {
+      $(".js--wp-1").addClass("animated animate__fadeInLeft");
+    },
+    {
+      offset: "50%",
+    }
+  );
+
+  $(".js--wp-2").waypoint(
+    function (direction) {
+      $(".js--wp-2").addClass("animated animate__fadeInLeft");
+    },
+    {
+      offset: "50%",
+    }
+  );
+
+  $(".js--wp-3").waypoint(
+    function (direction) {
+      $(".js--wp-3").addClass("animated animate__bounceInRight");
+    },
+    {
+      offset: "50%",
+    }
+  );
+
   //Scroll smooth from css-tricks/snippet
   $('a[href*="#"]')
     // Remove links that don't actually link to anything
