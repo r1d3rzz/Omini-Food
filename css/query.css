@@ -154,6 +154,10 @@
     float: right;
   }
 
+  .sticky .main-nav {
+    margin-top: 50px;
+  }
+
   .main-nav li {
     display: block;
     padding: 0;
