@@ -147,6 +147,35 @@
     display: none;
   }
 
+  .main-nav {
+    margin-top: 70px;
+    margin-right: 20px;
+    text-align: right;
+    float: right;
+  }
+
+  .main-nav li {
+    display: block;
+    padding: 0;
+    border: none;
+    margin: 10px 0;
+  }
+
+  .main-nav li > a {
+    color: #fff;
+    font-size: 100%;
+  }
+
+  .main-nav li:hover {
+    border: none;
+  }
+
+  .mobile--nav-icon i {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
   .hero-text-box {
     position: absolute;
     top: 30%;

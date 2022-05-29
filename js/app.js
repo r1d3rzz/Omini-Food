@@ -41,6 +41,20 @@ $(document).ready(function () {
   getAnimation(2, "animate__fadeInLeft");
   getAnimation(3, "animate__bounceInRight");
 
+  //Mobile Navbar
+
+  $(".js--mobile--nav-icon").click(function () {
+    $(".main-nav").slideToggle(200);
+
+    if ($(".js--mobile--nav-icon i").hasClass("fa-bars")) {
+      $(".js--mobile--nav-icon i").removeClass("fa-bars");
+      $(".js--mobile--nav-icon i").addClass("fa-times");
+    } else {
+      $(".js--mobile--nav-icon i").removeClass("fa-times");
+      $(".js--mobile--nav-icon i").addClass("fa-bars");
+    }
+  });
+
   //Scroll smooth from css-tricks/snippet
   $('a[href*="#"]')
     // Remove links that don't actually link to anything

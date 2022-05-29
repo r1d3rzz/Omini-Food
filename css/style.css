@@ -135,7 +135,7 @@ input[type="submit"]:hover {
 .logo {
   width: 100px;
   float: left;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .logo-black {
@@ -168,6 +168,20 @@ input[type="submit"]:hover {
 
 .main-nav li:hover {
   border-bottom: 3px solid #d35400;
+}
+
+.mobile--nav-icon i {
+  color: #fff;
+  font-size: 200%;
+  cursor: pointer;
+  float: right;
+  margin-top: 23px;
+  display: none;
+  margin-right: 20px;
+}
+
+.sticky .mobile--nav-icon i {
+  color: #555;
 }
 
 /* Sticky Nav */
